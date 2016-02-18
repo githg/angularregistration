@@ -8,6 +8,11 @@ myApp.config(['$routeProvider', function($routeProvider){
         controller: 'RegistrationController'
     }).
     when('/register',{
+        templateUrl: 'views/login.html',
+        controller: 'RegistrationController'
+    }).
+    
+    when('/success',{
         templateUrl: 'views/register.html',
         controller: 'SuccessController'
     }).
