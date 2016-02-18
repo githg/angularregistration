@@ -8,12 +8,12 @@ myApp.config(['$routeProvider', function($routeProvider){
         controller: 'RegistrationController'
     }).
     when('/register',{
-        templateUrl: 'views/login.html',
+        templateUrl: 'views/register.html',
         controller: 'RegistrationController'
     }).
     
     when('/success',{
-        templateUrl: 'views/register.html',
+        templateUrl: 'views/success.html',
         controller: 'SuccessController'
     }).
     otherwise({
